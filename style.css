@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(
+      rgba(224, 216, 216, 0.5),
+      rgba(230, 216, 216, 0.5)
+    ),
+    url(./images/background\ 1.png) center/cover fixed no-repeat;
+}
+
+.main {
+  color: orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  opacity: 50;
+  text-align: center;
+  font-style: italic;
+  font-size: 75px;
+}
+h1 {
+  color: orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  opacity: 50;
+  text-align: center;
+  font-style: italic;
+  font-size: 75px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: grey;
+  opacity: 50;
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+p {
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+  margin: 10px;
+}
+div {
+  display: flex;
+
+  justify-content: center;
+}
